@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <title>Classes e Id's</title>
 
+    <!--Para CSS em tags em geral, basta colocar a tag no style
+        Para criar uma classe, use . antes do nome desejado
+        Para criar um id, use # antes do nome desejado-->
+
+
     <style type="text/css">
 
         p {
             color: red;
         }
         h1 {
+            color: orange;
+        }
+        .azul {
             color: blue;
+        }
+        #principal {
+            background: gray;
         }
 
     </style>
 
 </head>
-<body>
+<body id="principal">
     
     <h1>Estilo CCS (cascading style sheets)</h1>
 
-    <p>O estilo é escrito separadamente em uma tag style</p>
+    <p class="azul">O estilo é escrito separadamente em uma tag style</p>
 
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut bibendum enim. Aenean faucibus leo eget nisi rhoncus accumsan et sed eros. Integer varius quam et nibh ultrices, id congue neque rutrum. Nullam eget magna vestibulum, ullamcorper quam vitae, accumsan dolor.
@@ -30,11 +41,9 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut bibendum enim. Aenean faucibus leo eget nisi rhoncus accumsan et sed eros. Integer varius quam et nibh ultrices, id congue neque rutrum. Nullam eget magna vestibulum, ullamcorper quam vitae, accumsan dolor.
     </p>
 
-    <h1>Estilo CCS (cascading style sheets)</h1>
+    <h1 class="azul">Formatação</h1>
 
-    <p>O estilo é escrito separadamente em uma tag style</p>
-
-    <p>
+    <p class="azul">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut bibendum enim. Aenean faucibus leo eget nisi rhoncus accumsan et sed eros. Integer varius quam et nibh ultrices, id congue neque rutrum. Nullam eget magna vestibulum, ullamcorper quam vitae, accumsan dolor.
     </p>
 
